@@ -1,6 +1,6 @@
 # 🚀 Rocker Scooter Liquidity Map Study for Sierra Chart
 
-A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Points (WHP), Monthly Hedge Pressure (MHP), DD band levels (DD), and session-based reference levels.
+A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Hedge Pressure (WHP), Monthly Hedge Pressure (MHP), DD band levels (DD), and session-based reference levels.
 
 ## ✨ Features
 
