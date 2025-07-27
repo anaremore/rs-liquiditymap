@@ -14,7 +14,7 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 - **Current Open**: Current session's opening price (white line)
 - **Half Gap**: Midpoint between Previous Close and Current Open (gray line - dashed if OpenGL mode is on)
 
-Of course, feel free to adjust these colors in the settings!
+(...and of course, feel free to adjust these colors in the settings!)
 
 ### ⚙️ Configuration Options
 - Manual price entry mode for all levels
