@@ -12,7 +12,7 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 ### 📊 Session Reference Levels
 - **Previous Close**: Previous trading day's closing price (white line)
 - **Current Open**: Current session's opening price (white line)
-- **Half Gap**: Midpoint between Previous Close and Current Open (gray line - dashed if OpenGL mode is on)
+- **Half Gap**: Midpoint between Previous Close and Current Open (gray dashed line)
 
 (and of course, feel free to adjust these colors, widths, and styles in the settings!)
 
