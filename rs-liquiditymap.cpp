@@ -63,8 +63,8 @@ SCSFExport scsf_LiquidityMapping(SCStudyInterfaceRef sc)
 		Subgraph_MHP.Name = "MHP"; Subgraph_MHP.PrimaryColor = RGB(255,140,0);
 		Subgraph_DDHigh.Name = "DD High"; Subgraph_DDHigh.PrimaryColor = RGB(180,180,180);
 		Subgraph_DDLow.Name = "DD Low"; Subgraph_DDLow.PrimaryColor = RGB(180,180,180);
-		Subgraph_PrevClose.Name = "Previous Close"; Subgraph_PrevClose.PrimaryColor = RGB(255,255,0);
-		Subgraph_CurrentOpen.Name = "Current Open"; Subgraph_CurrentOpen.PrimaryColor = RGB(0,255,255);
+		Subgraph_PrevClose.Name = "Previous Close"; Subgraph_PrevClose.PrimaryColor = RGB(255,255,255);
+		Subgraph_CurrentOpen.Name = "Current Open"; Subgraph_CurrentOpen.PrimaryColor = RGB(255,255,255);
 		Subgraph_HalfGap.Name = "Half Gap"; Subgraph_HalfGap.PrimaryColor = RGB(128,128,128);
 		Subgraph_HalfGap.LineStyle = LINESTYLE_DASH; Subgraph_HalfGap.LineWidth = 1;
 		return;
