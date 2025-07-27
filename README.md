@@ -62,13 +62,6 @@ For optimal display, configure the subgraph settings as shown in the image below
 
 ![Study Settings](settings.png)
 
-## ⚠️ Known Issues & TODO
-
-🚨 **IMPORTANT NOTE**: There are currently issues with the Open and Close level detection logic but you can just set them manually as a work around.
-
-### 🤝 Contributing
-If you can fix the Open/Close detection logic, **pull requests are welcome!** The main issues are in the auto-detection section of the code around lines 80-140.
-
 ## 📋 Study Parameters
 
 | Parameter | Description | Default |
