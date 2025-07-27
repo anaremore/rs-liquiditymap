@@ -2,6 +2,8 @@
 
 A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Hedge Pressure (WHP), Monthly Hedge Pressure (MHP), DD band levels (DD), and session-based reference levels (Open, Close, and Half Gap).
 
+![Example Chart](images/example-chart.png)
+
 ## ✨ Features
 
 ### 🎯 Core Liquidity Levels
@@ -60,7 +62,7 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 ### 🖼️ Subgraph Settings
 For optimal display, configure the subgraph settings as shown in the image below:
 
-![Study Settings](settings.png)
+![Study Settings](images/settings.png)
 
 ## 📋 Study Parameters
 
