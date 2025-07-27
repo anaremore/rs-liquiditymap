@@ -1,12 +1,12 @@
 # 🚀 Rocker Scooter Liquidity Map Study for Sierra Chart
 
-A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Points (WHP), Monthly High Point (MHP), DD band levels (DD), and session-based reference levels.
+A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Points (WHP), Monthly Hedge Pressure (MHP), DD band levels (DD), and session-based reference levels.
 
 ## ✨ Features
 
 ### 🎯 Core Liquidity Levels
-- **WHP High/Low**: Weekly High/Low Point levels (blue lines)
-- **MHP**: Monthly High Point level (orange line)
+- **WHP High/Low**: Weekly High/Low Hedge Pressure levels (blue lines)
+- **MHP**: Monthly Hedge Pressure level (orange line)
 - **DD High/Low**: DD bands levels calculated as Previous Close ± Risk Interval (gray lines)
 
 ### 📊 Session Reference Levels
@@ -49,8 +49,8 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 - **Manual Mode**: Use manually entered prices for previous close and current open
 
 ### 🎛️ Key Settings
-- **WHP High/Low**: Enter your weekly high/low point levels
-- **MHP**: Enter your monthly high point level
+- **WHP High/Low**: Enter your weekly high/low hedge pressure levels
+- **MHP**: Enter your monthly Hedge Pressure level
 - **Risk Interval (DD)**: Distance in points/ticks for DD band levels (default: 50)
 - **Session Start/End Time**: Define your trading session (default: 9:30 AM - 4:00 PM)
 
@@ -80,9 +80,9 @@ If you can fix the Open/Close detection logic, **pull requests are welcome!** Th
 
 | Parameter | Description | Default |
 |-----------|-------------|---------|
-| WHP High | Weekly High Point level | 0 |
-| WHP Low | Weekly Low Point level | 0 |
-| MHP | Monthly High Point level | 0 |
+| WHP High | Weekly High Hedge Pressure level | 0 |
+| WHP Low | Weekly Low High Hedge Pressure level | 0 |
+| MHP | Monthly Hedge Pressure level | 0 |
 | Risk Interval (DD) | DD band distance | 50 |
 | Session Start Time | Trading session start | 9:30 AM |
 | Session End Time | Trading session end | 4:00 PM |
