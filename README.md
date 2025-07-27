@@ -20,6 +20,7 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 - Risk interval adjustment for DD levels
 - Individual level visibility toggles
 - Update frequency control (new day only vs. continuous)
+- Use Manual Prices (Set Open / Close manually)
 
 ## 🔧 Installation & Compilation
 
