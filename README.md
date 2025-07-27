@@ -61,17 +61,7 @@ For optimal display, configure the subgraph settings as shown in the image below
 
 ## ⚠️ Known Issues & TODO
 
-🚨 **IMPORTANT NOTE**: There are currently issues with the Open and Close level detection logic. 
-
-### 🐛 Current Problems
-- Previous Close detection may not work correctly in all market conditions
-- Current Open detection can be unreliable during session transitions
-- Session time logic needs refinement for different market hours
-
-### 🛠️ Recommended Workaround
-**For now, it's recommended to either:**
-1. **❌ Disable the problematic levels**: Uncheck "Show Previous Close" and "Show Current Open" in the study settings
-2. **✋ Use Manual Mode**: Enable "Use Manual Prices" and enter your Previous Close and Current Open values manually
+🚨 **IMPORTANT NOTE**: There are currently issues with the Open and Close level detection logic but you can just set them manually as a work around.
 
 ### 🤝 Contributing
 If you can fix the Open/Close detection logic, **pull requests are welcome!** The main issues are in the auto-detection section of the code around lines 80-140.
@@ -93,20 +83,6 @@ If you can fix the Open/Close detection logic, **pull requests are welcome!** Th
 | Use Manual Prices | Enable manual price entry | No |
 | Manual Previous Close | Manual previous close value | 0 |
 | Manual Current Open | Manual current open value | 0 |
-
-## 🎨 Color Scheme
-
-- **WHP High/Low**: 🔵 Blue (`RGB(0,128,255)`)
-- **MHP**: 🟠 Orange (`RGB(255,140,0)`)
-- **DD High/Low**: ⚪ Gray (`RGB(180,180,180)`)
-- **Previous Close**: 🟡 Yellow (`RGB(255,255,0)`)
-- **Current Open**: 🔷 Cyan (`RGB(0,255,255)`)
-- **Half Gap**: ⚫ Gray dashed (`RGB(128,128,128)`)
-
-## 📋 Requirements
-
-- Sierra Chart version with Advanced Custom Studies support
-- C++ compilation capability (Remote Build - Standard)
 
 ## 📄 License
 
