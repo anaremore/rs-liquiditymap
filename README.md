@@ -1,13 +1,13 @@
 # 🚀 Rocker Scooter Liquidity Map Study for Sierra Chart
 
-A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Points (WHP), Monthly High Point (MHP), Daily Deviation levels (DD), and session-based reference levels.
+A Sierra Chart custom study that displays key liquidity levels in the Rocker Scooter trading style, including Weekly High/Low Points (WHP), Monthly High Point (MHP), DD band levels (DD), and session-based reference levels.
 
 ## ✨ Features
 
 ### 🎯 Core Liquidity Levels
 - **WHP High/Low**: Weekly High/Low Point levels (blue lines)
 - **MHP**: Monthly High Point level (orange line)
-- **DD High/Low**: Daily Deviation levels calculated as Previous Close ± Risk Interval (gray lines)
+- **DD High/Low**: DD bands levels calculated as Previous Close ± Risk Interval (gray lines)
 
 ### 📊 Session Reference Levels
 - **Previous Close**: Previous trading day's closing price (yellow line)
@@ -51,7 +51,7 @@ A Sierra Chart custom study that displays key liquidity levels in the Rocker Sco
 ### 🎛️ Key Settings
 - **WHP High/Low**: Enter your weekly high/low point levels
 - **MHP**: Enter your monthly high point level
-- **Risk Interval (DD)**: Distance in points/ticks for Daily Deviation levels (default: 50)
+- **Risk Interval (DD)**: Distance in points/ticks for DD band levels (default: 50)
 - **Session Start/End Time**: Define your trading session (default: 9:30 AM - 4:00 PM)
 
 ### 🖼️ Subgraph Settings
@@ -83,7 +83,7 @@ If you can fix the Open/Close detection logic, **pull requests are welcome!** Th
 | WHP High | Weekly High Point level | 0 |
 | WHP Low | Weekly Low Point level | 0 |
 | MHP | Monthly High Point level | 0 |
-| Risk Interval (DD) | Daily Deviation distance | 50 |
+| Risk Interval (DD) | DD band distance | 50 |
 | Session Start Time | Trading session start | 9:30 AM |
 | Session End Time | Trading session end | 4:00 PM |
 | Show Previous Close | Display previous close line | Yes |
